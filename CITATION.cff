@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+type: software
+title: "Quantum Encoding Selection for NLP Sentiment Analysis"
+authors:
+  - family-names: "Gündüz"
+    given-names: "Kadir Göksel"
+    alias: "RsGoksel"
+repository-code: "https://github.com/RsGoksel/quantum-encoding-nlp"
+license: MIT
+keywords:
+  - "variational quantum circuits"
+  - "data encoding"
+  - "natural language processing"
+  - "sentiment analysis"
+  - "barren plateaus"
+  - "NISQ"
+  - "IBM Quantum"
+preferred-citation:
+  type: generic
+  title: "Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis"
+  year: 2026
+  authors:
+    - family-names: "Gündüz"
+      given-names: "Kadir Göksel"
+  notes: "Preprint"

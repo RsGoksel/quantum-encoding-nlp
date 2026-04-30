@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets / credentials ---
+.env
+.env.local
+.qiskit/
+qiskit-ibm.json
+*.pem
+
+# --- Caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- HuggingFace caches ---
+.cache/
+hf_cache/
+transformers_cache/
+
+# --- Project-specific ---
+# Large untracked artifacts (cached embeddings ARE committed deliberately)
+*.log
+nohup.out
+
+# Scratch / temporary outputs
+scratch/
+tmp/
+*.tmp

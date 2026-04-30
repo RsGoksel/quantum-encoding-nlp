@@ -1,0 +1,9 @@
+{
+  "simulator_accuracy": 0.699999988079071,
+  "qpu_accuracy": 0.7,
+  "difference": 1.1920928910669204e-08,
+  "agreement": 0.8,
+  "qpu_time_seconds": 138.40755224227905,
+  "n_samples": 50,
+  "backend": "ibm_torino"
+}

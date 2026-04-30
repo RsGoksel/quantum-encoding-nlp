@@ -1,0 +1,27 @@
+# Core ML / quantum stack tested with Python 3.13 on Windows 11.
+# Pinned to versions used in the paper (see Appendix B).
+
+# Deep learning
+torch==2.6.0
+numpy>=1.26
+scipy>=1.13
+
+# NLP embedding pipeline
+transformers==5.3.0
+datasets==4.6.1
+tokenizers>=0.20
+
+# Classical ML utilities
+scikit-learn==1.7.2
+
+# Quantum SDK (only required for IBM QPU inference scripts)
+qiskit==2.3.0
+qiskit-ibm-runtime==0.45.1
+
+# Plotting / analysis
+matplotlib==3.10.7
+seaborn==0.13.2
+pandas>=2.2
+
+# Progress bars / utility
+tqdm>=4.66

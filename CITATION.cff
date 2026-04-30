@@ -6,6 +6,9 @@ authors:
   - family-names: "Gündüz"
     given-names: "Kadir Göksel"
     alias: "RsGoksel"
+    email: "gokssel.gunduz@gmail.com"
+    orcid: "https://orcid.org/0009-0007-9120-5659"
+    affiliation: "Energy Institute, Istanbul Technical University (İTÜ)"
 repository-code: "https://github.com/RsGoksel/quantum-encoding-nlp"
 license: MIT
 keywords:
@@ -23,4 +26,6 @@ preferred-citation:
   authors:
     - family-names: "Gündüz"
       given-names: "Kadir Göksel"
+      orcid: "https://orcid.org/0009-0007-9120-5659"
+      affiliation: "Energy Institute, Istanbul Technical University (İTÜ)"
   notes: "Preprint"

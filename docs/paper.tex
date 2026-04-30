@@ -10,15 +10,18 @@
 \usepackage{braket}
 \usepackage{multirow}
 \usepackage[caption=false]{subfig}
+\usepackage{orcidlink}
 
 \graphicspath{{./}{results/plots/}}
 
 \title{Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis}
 
-\author{\IEEEauthorblockN{Kadir G\"{o}ksel G\"{u}nd\"{u}z}
-\IEEEauthorblockA{Energy Science and Technology\\
+\author{\IEEEauthorblockN{Kadir G\"{o}ksel G\"{u}nd\"{u}z\,\orcidlink{0009-0007-9120-5659}}
+\IEEEauthorblockA{Energy Institute\\
 Istanbul Technical University (\.{I}T\"{U})\\
-Istanbul, Turkey}}
+Istanbul, T\"{u}rkiye\\
+Email: \texttt{gokssel.gunduz@gmail.com}\\
+ORCID: \href{https://orcid.org/0009-0007-9120-5659}{0009-0007-9120-5659}}}
 
 \begin{document}
 
@@ -409,6 +412,22 @@ We presented a systematic comparison of four quantum data encoding strategies fo
 \end{itemize}
 
 These results provide practitioners with a practical framework: measure gradient variance, prefer shallow circuits, align input domains, and validate on hardware. Future work should extend to larger qubit counts, explore encoding--ansatz co-optimization, and investigate task-specific encoding design.
+
+% ===================================================================
+% CODE AND DATA AVAILABILITY
+% ===================================================================
+\section*{Code and Data Availability}
+The full source code, trained checkpoints, cached DistilBERT/PCA embeddings, IBM Quantum job logs, and all paper figures are publicly available at
+\href{https://github.com/RsGoksel/quantum-encoding-nlp}{\texttt{github.com/RsGoksel/quantum-encoding-nlp}}
+under the MIT License. The repository includes scripts to fully reproduce every result reported in this paper.
+
+% ===================================================================
+% DECLARATIONS
+% ===================================================================
+\section*{Declarations}
+\textbf{Conflict of Interest.} The author declares no competing interests.\\
+\textbf{Funding.} This research received no specific grant from any public, commercial, or not-for-profit funding agency.\\
+\textbf{IBM Quantum Access.} Hardware experiments were conducted under the IBM Quantum Open Plan (10\,min/month free tier).
 
 % ===================================================================
 % REFERENCES

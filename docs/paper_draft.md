@@ -1,6 +1,13 @@
 # Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis
 
-**Author:** Kadir Göksel Gündüz
+**Author:** Kadir Göksel Gündüz¹\*
+**Affiliation:** ¹ Energy Institute, Istanbul Technical University (İTÜ), Istanbul, Türkiye
+**Email:** gokssel.gunduz@gmail.com
+**ORCID:** [0009-0007-9120-5659](https://orcid.org/0009-0007-9120-5659)
+**Date:** 30 April 2026
+**Code & Data:** [github.com/RsGoksel/quantum-encoding-nlp](https://github.com/RsGoksel/quantum-encoding-nlp)
+
+\*Corresponding author.
 
 ---
 
@@ -391,6 +398,20 @@ We presented a systematic comparison of four quantum data encoding strategies fo
 - **Hardware validation confirms noise resilience across encodings:** Balanced QPU testing on ibm_fez (10 samples: 5 label 0 + 5 label 1) confirms 100% simulator-QPU prediction agreement for all four encodings with zero T1 relaxation bias — QPU agreement is symmetric across both label classes. No T1 amplitude damping confound was detected.
 
 These results provide practitioners with a practical framework for encoding selection: measure gradient variance, prefer shallow circuits, align input domains, and validate on hardware. Future work should extend this analysis to larger qubit counts, explore encoding-ansatz co-optimization, and investigate task-specific encoding design for NLP.
+
+---
+
+## Code and Data Availability
+
+The full source code, trained model checkpoints, cached DistilBERT/PCA embeddings, IBM Quantum job logs, and all paper figures are publicly available at [https://github.com/RsGoksel/quantum-encoding-nlp](https://github.com/RsGoksel/quantum-encoding-nlp) under the MIT License. The repository includes scripts to fully reproduce every result reported in this paper, including multi-seed training (`experiments/run_multiseed.py`), gradient-variance analysis (`experiments/barren_plateau.py`), and IBM Quantum hardware inference (`experiments/ibm_balanced_qpu.py`).
+
+## Declarations
+
+**Conflict of Interest.** The author declares no competing interests.
+
+**Funding.** This research received no specific grant from any public, commercial, or not-for-profit funding agency.
+
+**IBM Quantum Access.** Hardware experiments were conducted under the IBM Quantum Open Plan (10 min/month free tier). The author thanks IBM Quantum for providing free access to `ibm_fez` and `ibm_torino` superconducting processors.
 
 ---
 

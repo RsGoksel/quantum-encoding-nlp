@@ -10,6 +10,11 @@ authors:
     orcid: "https://orcid.org/0009-0007-9120-5659"
     affiliation: "Energy Institute, Istanbul Technical University (İTÜ)"
 repository-code: "https://github.com/RsGoksel/quantum-encoding-nlp"
+url: "https://doi.org/10.13140/RG.2.2.32211.13607"
+identifiers:
+  - type: doi
+    value: "10.13140/RG.2.2.32211.13607"
+    description: "ResearchGate preprint DOI"
 license: MIT
 keywords:
   - "variational quantum circuits"
@@ -23,9 +28,14 @@ preferred-citation:
   type: generic
   title: "Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis"
   year: 2026
+  month: 4
   authors:
     - family-names: "Gündüz"
       given-names: "Kadir Göksel"
       orcid: "https://orcid.org/0009-0007-9120-5659"
       affiliation: "Energy Institute, Istanbul Technical University (İTÜ)"
+  doi: "10.13140/RG.2.2.32211.13607"
+  url: "https://doi.org/10.13140/RG.2.2.32211.13607"
+  publisher:
+    name: "ResearchGate"
   notes: "Preprint"

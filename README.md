@@ -1,8 +1,15 @@
 # Quantum Encoding Selection for NLP Sentiment Analysis
 
+[![DOI](https://img.shields.io/badge/DOI-10.13140%2FRG.2.2.32211.13607-blue.svg)](https://doi.org/10.13140/RG.2.2.32211.13607)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Paper License: CC BY 4.0](https://img.shields.io/badge/Paper-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/)
+
 A systematic comparison of four variational quantum circuit (VQC) data-encoding strategies — **Angle**, **Dense Angle**, **IQP**, and **Data Re-uploading** — for binary sentiment classification, with multi-seed validation on IMDb / SST-2 and real-hardware verification on IBM Quantum (`ibm_fez`, 156 qubits).
 
-> Companion code for the paper *"Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis"* (Gündüz, 2026). Draft: [`docs/paper_draft.md`](docs/paper_draft.md).
+> 📄 **Preprint:** Gündüz, K. G. (2026). *Evaluating Quantum Data Encoding Strategies and Gradient Trainability for NLP Sentiment Analysis.* ResearchGate. [https://doi.org/10.13140/RG.2.2.32211.13607](https://doi.org/10.13140/RG.2.2.32211.13607)
+>
+> Local draft: [`docs/paper_draft.md`](docs/paper_draft.md) · LaTeX source: [`docs/paper.tex`](docs/paper.tex)
 
 ---
 
@@ -166,12 +173,15 @@ We make **no claim of quantum advantage**. The 8-qubit circuits are classically 
 
 ```bibtex
 @misc{gunduz2026quantumencoding,
-  author = {G\"und\"uz, Kadir G\"oksel},
-  title  = {Evaluating Quantum Data Encoding Strategies and Gradient Trainability
-            for NLP Sentiment Analysis},
-  year   = {2026},
-  note   = {Preprint},
-  url    = {https://github.com/RsGoksel/quantum-encoding-nlp},
+  author    = {G\"und\"uz, Kadir G\"oksel},
+  title     = {Evaluating Quantum Data Encoding Strategies and Gradient Trainability
+               for {NLP} Sentiment Analysis},
+  year      = {2026},
+  month     = apr,
+  publisher = {ResearchGate},
+  note      = {Preprint},
+  doi       = {10.13140/RG.2.2.32211.13607},
+  url       = {https://doi.org/10.13140/RG.2.2.32211.13607},
 }
 ```
 

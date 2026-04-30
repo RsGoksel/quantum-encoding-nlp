@@ -5,6 +5,8 @@
 **Email:** gokssel.gunduz@gmail.com
 **ORCID:** [0009-0007-9120-5659](https://orcid.org/0009-0007-9120-5659)
 **Date:** 30 April 2026
+**DOI:** [10.13140/RG.2.2.32211.13607](https://doi.org/10.13140/RG.2.2.32211.13607)
+**Preprint:** ResearchGate · License: CC BY 4.0
 **Code & Data:** [github.com/RsGoksel/quantum-encoding-nlp](https://github.com/RsGoksel/quantum-encoding-nlp)
 
 \*Corresponding author.
